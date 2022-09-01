@@ -1,11 +1,11 @@
-import Head from "next/head";
+import Meta from "../components/Meta";
+
 const about = () => {
   return (
     <div>
-      <Head>
-        <title>About</title>
-      </Head>
-      <h1>About</h1>
+      <Meta />
+      <title>About</title>
+      <h1>Simple web app exploring the power of next.js</h1>
     </div>
   );
 };
